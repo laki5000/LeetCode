@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Problems.Easy
 {
-    internal class Problem9_PalindromeNumber
+    internal static class Problem9_PalindromeNumber
     {
-        public bool IsPalindrome(int x)
+        public static bool IsPalindrome(int x)
         {
             int result = 0;
             int xCopy = x;

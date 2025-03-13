@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Problems.Easy
 {
-    internal class Problem1_TwoSum
+    internal static class Problem1_TwoSum
     {
-        public int[] TwoSum(int[] nums, int target)
+        public static int[] TwoSum(int[] nums, int target)
         {
             for (var i = 0; i < nums.Length; i++)
             {

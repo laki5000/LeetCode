@@ -12,7 +12,6 @@ namespace LeetCode.Problems.Easy
             {
                 var current = num % 10;
                 num  /= 10;
-
                 result += current;
 
                 if (result >= 10)
